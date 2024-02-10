@@ -16,7 +16,7 @@
 #define COLOR_RED   0xFF0000FF
 #define COLOR_BLUE  0xFFFF0000
 #define COLOR_GREEN 0xFF00FF00
-
+#define COLOR_BLACK 0xFF000000
 #define GRUVBOX_BRIGHT_RED    0xFF3449FB
 #define GRUVBOX_BRIGHT_GREEN  0xFF26BBB8
 #define GRUVBOX_BRIGHT_YELLOW 0xFF2FBDFA
@@ -31,9 +31,7 @@
 #define SEED_MARKER_COLOR COLOR_WHITE
 #define palette_count (sizeof(palette)/sizeof(palette[0]))
 
-typedef struct {
-		int x, y;
-} Point;
+typedef struct { int x, y; } Point;
 
 typedef uint32_t Color32;
 
